@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+body{
+    background-color: var(--OffBlack);
+    color: var(--White);
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.tarjeta{
+    background-color:var(--DarkGrey);
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    
+
+    }
+
+    .boton{
+        background-color: var(--Grey);
+        color: var(--White);
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        cursor: pointer;
+       
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+}
+
+.p{
+    color: var(--Green);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+
+}
+.h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.h4{
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.boton:hover{
+background-color: var(--Green);
+color: var(--Grey);
+}
+
